@@ -15,7 +15,7 @@ sudo docker run -itd \
                 -p 8088:8088 \
                 --name hadoop-master \
                 --hostname hadoop-master \
-                lyb/hadoop &> /dev/null
+                cang13146/hadoop &> /dev/null
 
 
 # start hadoop slave container
@@ -30,7 +30,7 @@ do
                 --net=hadoop \
                 --name hadoop-worker$i \
                 --hostname hadoop-worker$i \
-                lyb/hadoop &> /dev/null
+                cang13146/hadoop &> /dev/null
 
 	i=$(( $i + 1 ))
 done 
