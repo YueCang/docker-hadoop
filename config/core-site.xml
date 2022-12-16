@@ -26,16 +26,21 @@
 		<name>hadoop.tmp.dir</name>
 		<value>/opt/module/hadoop-3.3.1/data/tmp</value>
 	</property>
-	<property>
-          <name>hadoop.http.filter.initializers</name>
-          <value>org.apache.hadoop.security.AuthenticationFilterInitializer</value>
+	
+  <property>
+    <name>hadoop.http.staticuser.user</name>
+    <value>root</value>
   </property>
   <property>
-          <name>hadoop.http.authentication.type</name>
-          <value>simple</value>
+    <name>hadoop.proxyuser.atguigu.hosts</name>
+    <value>*</value>
   </property>
   <property>
-          <name>hadoop.http.authentication.signature.secret.file</name>
-          <value>/root/auth-file/hadoop-http-auth-signature-secret</value>
+    <name>hadoop.proxyuser.atguigu.groups</name>
+    <value>*</value>
+  </property>
+  <property>
+    <name>hadoop.proxyuser.atguigu.groups</name>
+    <value>*</value>
   </property>
 </configuration>
