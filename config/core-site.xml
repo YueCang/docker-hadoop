@@ -26,21 +26,4 @@
 		<name>hadoop.tmp.dir</name>
 		<value>/opt/module/hadoop-3.3.1/data/tmp</value>
 	</property>
-	
-  <property>
-    <name>hadoop.http.staticuser.user</name>
-    <value>root</value>
-  </property>
-  <property>
-    <name>hadoop.proxyuser.atguigu.hosts</name>
-    <value>*</value>
-  </property>
-  <property>
-    <name>hadoop.proxyuser.atguigu.groups</name>
-    <value>*</value>
-  </property>
-  <property>
-    <name>hadoop.proxyuser.atguigu.groups</name>
-    <value>*</value>
-  </property>
 </configuration>
