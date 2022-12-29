@@ -58,8 +58,14 @@
    # 启动集群
    start-all.sh
    
+   # 启动历史服务
+   mapred --daemon start historyserver
+   
+   # 关闭历史服务
+   mapred --daemon stop historyserver
+   
    # 停止集群
    stop-all.sh
    ```
-
+   
    
